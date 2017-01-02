@@ -1,0 +1,57 @@
+#include <SFML/Graphics.hpp>
+
+using namespace sf;
+
+const int H = 48;
+const int W = 84;
+
+String TileMap[H] = {
+	"RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                                                                  A",
+	"A                                        A                                         A",
+	"A        1                                                                         A",
+	"A                                     1                 AAAAAA     AAAA           AA",
+	"A                   A                A                                             A",
+	"A                                                                                  A",
+	"A        AAA                                                                       A",
+	"A                                  AAAAAA     2                                    A",
+	"A             1                                                    1        A  AAAAA",
+	"A      A           3         AA                                                    A",
+	"A    3                                                                             A",
+	"A                AAAAA                   AAAAAAAA               AAAAAA         1   A",
+	"A                                               1                                  A",
+	"AA        1  A                   3                      A    A           A         A",
+	"A                                                3                              4  A",
+	"A                              AAAA                                                A",
+	"A     AAAA               A                        AAAAA                    1    AAAA",
+	"A                                                           A A                    A",
+	"A            2   2   2          2                           1                      A",
+	"A                                   33                               1             A",
+	"A             AAAAAA                                                   AAAAA       A",
+	"AA                   3                                           1                 A",
+	"A                     A                         A2   AAAA                    A     A",
+	"A       3  A                AAA   1                             2                  A",
+	"A     3                                               A     A  A                  AA",
+	"A                            3       AAAAA                                1        A",
+	"A     AAAAA                             AAAA                                       A",
+	"A                                                               33                 A",
+	"A                   AAAAA                          2           AAAA            AAA A",
+	"A                           1     1           AAAAAA              1                A",
+	"AA 333      4   1   2                                      1                       A",
+	"A                                                                                  A",
+	"A         AAAAAA                                 1                    AAAAAA       A",
+	"A                           A            A               AA                        A",
+	"BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+};
